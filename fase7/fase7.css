@@ -238,14 +238,9 @@ html, body {
  
 
 
+  
 
-
-
-
-
-
-
-  /*Propriedades da tela de parabéns*/
+   /*Propriedades da tela de parabéns*/
 
   /*Propriedades do titulo*/
   #titulo{
@@ -351,12 +346,6 @@ top: 63.88%;
     top: 43.05%;
 
   }
-
-
-
-
-
-
 
 
 
@@ -470,7 +459,6 @@ top: 63.88%;
 
   }
 
-  
 
 
 
@@ -479,10 +467,7 @@ top: 63.88%;
 
 
 
-
-
-
-/*Propriedades da tela de configuração*/
+  /*Propriedades da tela de configuração*/
 
 #titulo3{
   position: relative;
@@ -500,7 +485,7 @@ top: 63.88%;
 }
 
   #closeConfi{
-    position: relative;
+    position: fixed;
     /* width: auto; */
     /* height: auto; */
     /* left: calc(50% + 8rem); */
