@@ -12,7 +12,7 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0%";
     document.body.style.backgroundColor = "#5522BD";
   }
-
+  
   function confi(){
     document.getElementById("conteudoModalConfig").style.display = "block";
     document.body.style.backgroundColor = "#451C99";
@@ -22,7 +22,7 @@ function openNav() {
     document.getElementById("myBtnDica").style.display = "none";
     document.getElementById("mySidenav").style.width = "0%";
   }
-  
+
   function closeConfi(){
     document.getElementById("conteudoModalConfig").style.display = "none";
     document.body.style.backgroundColor = "#5522BD";
@@ -31,9 +31,9 @@ function openNav() {
     document.getElementById("confirm").style.display = "block";
     document.getElementById("myBtnDica").style.display = "block";
   }
-  
+
   function exit(){
-    window.location.href='../easy.html';
+    window.location.href='../hard.html';
   }
 
 
@@ -70,55 +70,47 @@ window.onclick = function(event) {
   
 }
 
-//Tirar os elementos da tela quando a tela de vitoria ou derrota aparecer
-
 document.getElementById("demo").innerHTML = 0;
 
 function randomN(){
-document.getElementById("demo").innerHTML =
+  document.getElementById("demo").innerHTML =
 Math.floor(Math.random() * 10);
 
 if(document.getElementById("demo").innerHTML <=5){
-document.getElementById("conteudoModalDefeat").style.display = "block";
-document.body.style.color = "#451C99";
-document.getElementById("menuE").style.display = "none";
-document.getElementById("resetG").style.display = "none";
-document.getElementById("confirm").style.display = "none";
-document.getElementById("myBtnDica").style.display = "none";
-
-
+  document.getElementById("conteudoModalDefeat").style.display = "block";
+  document.body.style.color = "#451C99";
+  document.getElementById("menuE").style.display = "none";
+  document.getElementById("resetG").style.display = "none";
+  document.getElementById("confirm").style.display = "none";
+  document.getElementById("myBtnDica").style.display = "none";
+ 
+  
 }
 
 if(document.getElementById("demo").innerHTML >5){
-document.getElementById("conteudoModalVitory").style.display = "block";
-document.body.style.color = "#451C99";
-document.getElementById("menuE").style.display = "none";
-document.getElementById("resetG").style.display = "none";
-document.getElementById("confirm").style.display = "none";
-document.getElementById("myBtnDica").style.display = "none";
-
+  document.getElementById("conteudoModalVitory").style.display = "block";
+  document.body.style.color = "#451C99";
+  document.getElementById("menuE").style.display = "none";
+  document.getElementById("resetG").style.display = "none";
+  document.getElementById("confirm").style.display = "none";
+  document.getElementById("myBtnDica").style.display = "none";
+  
 }
 }
 
 function back1(){
-window.location.href='../../../inicio.html';
+  window.location.href='../../../inicio.html';
 }
 
 function reset(){
-window.location.href='fase3.html';
+  window.location.href='fase3.html';
 }
 
 function next(){
-window.location.href='../fase4/fase4.html';
+  window.location.href='../fase4/fase4.html';
 }
 
-
-
-
-
-
-
-
+  
 
 
   

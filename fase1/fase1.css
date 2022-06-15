@@ -130,7 +130,7 @@ html, body {
    /*Titulo do modal*/
   #intru{
     position:relative ;
-    margin: 0%;
+    margin-top: 0%;
     color: #ffffff;
     text-align: center;
     font-family: "Kanit";
@@ -143,15 +143,15 @@ html, body {
   #infutru{
     position:relative;
     color: #ffffff;
-    text-align: justify;
+    text-align: left;
     font-family: "Kanit";
-    font-style: medium;
+    font-style: normal;
    
     font-size: 2.375vw;
-    margin-top: 2%;
+    margin-top: 0%;
     margin-left:4vw;
     margin-right:4vw;
-    margin-bottom:2%;
+    margin-bottom: 4vw;
   }
 
   /* O modal (background) */
@@ -177,7 +177,7 @@ html, body {
     margin: auto;
     padding: 0px;
     border: 1px solid #7937FF;
-    border-radius:23.61vh;
+    border-radius: 85px;
     width: 62.5%;
     height: 55.55%;
     left: 18.75%;
@@ -190,7 +190,9 @@ html, body {
     
     position:fixed;
     left: 71.5%;
+    
     top: 26.39%;
+    
     width: 3.75%;
     transition: 0.3s;
     cursor: pointer;
@@ -233,9 +235,7 @@ html, body {
     height:11.11%;
 
   }
-
-
-
+ 
 
 
 
@@ -357,6 +357,12 @@ top: 63.88%;
 
 
 
+
+
+
+
+
+
   /*Propriedades da tela de derrota*/
 
   /*Propriedades do titulo*/
@@ -464,6 +470,7 @@ top: 63.88%;
 
   }
 
+  
 
 
 
@@ -472,7 +479,10 @@ top: 63.88%;
 
 
 
-  /*Propriedades da tela de configuração*/
+
+
+
+/*Propriedades da tela de configuração*/
 
 #titulo3{
   position: relative;
@@ -616,7 +626,3 @@ color: #FFFFFF;
     transition: 0.3s;
     cursor: pointer;
   }
- 
-
-
-  

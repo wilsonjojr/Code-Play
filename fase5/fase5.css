@@ -145,7 +145,7 @@ html, body {
     color: #ffffff;
     text-align: left;
     font-family: "Kanit";
-    font-style: medium;
+    font-style: normal;
    
     font-size: 2.375vw;
     margin-top: 0%;
@@ -235,9 +235,7 @@ html, body {
     height:11.11%;
 
   }
-
-
-
+ 
 
 
 
@@ -359,6 +357,12 @@ top: 63.88%;
 
 
 
+
+
+
+
+
+
   /*Propriedades da tela de derrota*/
 
   /*Propriedades do titulo*/
@@ -466,6 +470,7 @@ top: 63.88%;
 
   }
 
+  
 
 
 
@@ -474,7 +479,10 @@ top: 63.88%;
 
 
 
-  /*Propriedades da tela de configuração*/
+
+
+
+/*Propriedades da tela de configuração*/
 
 #titulo3{
   position: relative;
@@ -492,7 +500,7 @@ top: 63.88%;
 }
 
   #closeConfi{
-    position: fixed;
+    position: relative;
     /* width: auto; */
     /* height: auto; */
     /* left: calc(50% + 8rem); */
@@ -618,7 +626,3 @@ color: #FFFFFF;
     transition: 0.3s;
     cursor: pointer;
   }
- 
-
-
-  
